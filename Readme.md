@@ -1,6 +1,6 @@
 ## BGx Graphics Framework
 
-This is what happens when we different things very much
+This is what happens when we love stuffs
 1) libGDX (https://libgdx.badlogicgames.com)
 2) C++
 
