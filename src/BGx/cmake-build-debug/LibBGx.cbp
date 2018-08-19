@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LibBGx"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\utils\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LibBGx">
+				<Option output="/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/libLibBGx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abijosh/Projects/BGx/src/BGx/./Box2D"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 LibBGx"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LibBGx/fast">
+				<Option output="/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/libLibBGx.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/abijosh/Projects/BGx/src/BGx/./Box2D"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 LibBGx/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/abijosh/Projects/BGx/src/BGx/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Application.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Application.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/ApplicationAdapter.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/ApplicationAdapter.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/ApplicationListener.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/ApplicationListener.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/ApplicationLogger.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/ApplicationLogger.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Audio.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Audio.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/BGx.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/BGx.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Files.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Files.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Game.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Game.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Graphics.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Graphics.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Input.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Input.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/InputAdapter.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/InputAdapter.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/InputEventQueue.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/InputEventQueue.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/InputMultiplexer.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/InputMultiplexer.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/InputProcessor.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/InputProcessor.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/LifeCycleListener.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/LifeCycleListener.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Net.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Net.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Preferences.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Preferences.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Screen.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Screen.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/ScreenAdapter.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/ScreenAdapter.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Version.cpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/Version.hpp">
+			<Option target="LibBGx"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/abijosh/Projects/BGx/src/BGx/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utils\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

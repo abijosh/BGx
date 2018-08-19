@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="LibBGx" targetName="LibBGx" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a289063-a9d5-4198-a591-fec20b5e4c7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/internal/memory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/Runnable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/Runnable.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Application.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApplicationAdapter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApplicationAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApplicationListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApplicationListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApplicationLogger.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ApplicationLogger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Audio.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Audio.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BGx.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BGx.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Files.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Game.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graphics.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Graphics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Input.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Input.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InputAdapter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InputAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InputEventQueue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InputEventQueue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InputMultiplexer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InputMultiplexer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InputProcessor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../InputProcessor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LifeCycleListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../LifeCycleListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Net.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Preferences.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Preferences.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Screen.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScreenAdapter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ScreenAdapter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Version.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/AssetDescriptor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/AssetDescriptor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/AssetErrorListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/AssetErrorListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/AssetLoaderParameters.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/AssetLoaderParameters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/AssetLoadingTask.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/AssetLoadingTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/AssetManager.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/AssetManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/RefCountedContainer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/RefCountedContainer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/AssetLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/AssetLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/AsynchronousAssetLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/AsynchronousAssetLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/BitmapFontLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/BitmapFontLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/CubemapLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/CubemapLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/FileHandleResolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/FileHandleResolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/I18BBundleLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/I18BBundleLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/ModelLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/ModelLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/MusicLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/MusicLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/ParticleEffectLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/ParticleEffectLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/PixmapLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/PixmapLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/ShaderProgramLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/ShaderProgramLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/SkinLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/SkinLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/SoundLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/SoundLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/SynchronousAssetLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/SynchronousAssetLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/TextureAtlasLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/TextureAtlasLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/TextureLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/TextureLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/AbsoluteFileHandleResolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/AbsoluteFileHandleResolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/ClasspathFileHandleResolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/ClasspathFileHandleResolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/ExternalFileHandleResolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/ExternalFileHandleResolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/InternalFileHandleResolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/InternalFileHandleResolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/LocalFileHandleResolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/LocalFileHandleResolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/PrefixFileHandleResolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/PrefixFileHandleResolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/ResolutionFileResolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/loaders/resolvers/ResolutionFileResolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../audio/AudioDevice.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../audio/AudioDevice.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../audio/AudioRecorder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../audio/AudioRecorder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../audio/Music.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../audio/Music.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../audio/Sound.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../audio/Sound.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../files/FileHandle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../files/FileHandle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../files/FileHandleStream.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../files/FileHandleStream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Camera.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Camera.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Color.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Color.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Colors.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Colors.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Cubemap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Cubemap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/CubemapData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/CubemapData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Cursor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Cursor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/FPSLogger.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/FPSLogger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/GL10.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/GL10.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/GL20.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/GL20.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/GL30.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/GL30.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/GLTexture.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/GLTexture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Mesh.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Mesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/OrthographicCamera.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/OrthographicCamera.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/PerspectiveCamera.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/PerspectiveCamera.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Pixmap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Pixmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/PixmapIO.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/PixmapIO.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Texture.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/Texture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/TextureArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/TextureArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/TextureArrayData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/TextureArrayData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/TextureData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/TextureData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/VertexAttribure.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/VertexAttribure.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/VertexAttributes.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/VertexAttributes.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/Animation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/Animation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/BGx2DPixmap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/BGx2DPixmap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/Batch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/Batch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/BitmapFont.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/BitmapFont.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/BitmapFontCache.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/BitmapFontCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/CpuSpriteBatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/CpuSpriteBatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/DistanceFieldFont.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/DistanceFieldFont.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/GlyphLayout.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/GlyphLayout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/NinePatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/NinePatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/ParticleEffect.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/ParticleEffect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/ParticleEffectPool.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/ParticleEffectPool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/ParticleEmitter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/ParticleEmitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PixmapPacker.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PixmapPacker.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PixmapPackerIO.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PixmapPackerIO.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PolygonRegion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PolygonRegion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PolygonRegionLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PolygonRegionLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PolygonSprite.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PolygonSprite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PolygonSpriteBatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/PolygonSpriteBatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/RepeatablePolygonSprite.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/RepeatablePolygonSprite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/Sprite.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/Sprite.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/SpriteBatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/SpriteBatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/SpriteCache.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/SpriteCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/TextureAtlas.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/TextureAtlas.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/TextureRegion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g2d/TextureRegion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Attribures.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Attribures.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Attribute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Attribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Environment.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Environment.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Material.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Material.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Model.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Model.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/ModelBatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/ModelBatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/ModelCache.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/ModelCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/ModelInstance.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/ModelInstance.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Renderable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Renderable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/RenderableProvider.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/RenderableProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Shader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/Shader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/BlendingAttribute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/BlendingAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/ColorAttribute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/ColorAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/CubemapAttriubte.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/CubemapAttriubte.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/DepthTestAttribute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/DepthTestAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/DirectionalLightsAttribute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/DirectionalLightsAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/FloatAttribute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/FloatAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/IntAttribute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/IntAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/PointLightsAttribute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/PointLightsAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/SpotLightAttribute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/SpotLightAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/TextureAttribute.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/attributes/TextureAttribute.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/CameraGroupStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/CameraGroupStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/Decal.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/Decal.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/DecalBatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/DecalBatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/DecalMaterial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/DecalMaterial.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/GroupPlug.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/GroupPlug.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/GroupStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/GroupStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/PluggableGroupStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/PluggableGroupStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/SimpleOrthoGroupStrategy.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/decals/SimpleOrthoGroupStrategy.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/AmbientCubemap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/AmbientCubemap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/BaseLight.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/BaseLight.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/DirectionalLight.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/DirectionalLight.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/DirectionalShadowLight.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/DirectionalShadowLight.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/PointLight.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/PointLight.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/ShadowMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/ShadowMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/SphericalHarmonics.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/SphericalHarmonics.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/SpotLight.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/environment/SpotLight.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/loader/G3DModelLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/loader/G3DModelLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/loader/MtLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/loader/MtLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/loader/ObjLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/loader/ObjLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/Animation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/Animation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/MeshPart.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/MeshPart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/Node.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/Node.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/NodeAnimation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/NodeAnimation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/NodeKeyFrame.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/NodeKeyFrame.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/NodePart.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/NodePart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelAnimation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelAnimation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelMaterial.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelMaterial.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelMesh.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelMesh.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelMeshPart.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelMeshPart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelNode.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelNode.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelNodeAnimation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelNodeAnimation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelNodeKeyframe.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelNodeKeyframe.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelNodePart.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelNodePart.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelTexture.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/data/ModelTexture.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/shaders/BaseShader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/shaders/BaseShader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/shaders/DefaultShader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/shaders/DefaultShader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/shaders/DepthShader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/model/shaders/DepthShader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParallelArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParallelArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleChannels.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleChannels.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleController.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleControllerComponent.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleControllerComponent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleEffect.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleEffect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleEffectLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleEffectLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleShader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleShader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleSorter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleSorter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleSystem.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ParticleSystem.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ResourceData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/ResourceData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/batches/BillboardParticleBatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/batches/BillboardParticleBatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/batches/BufferedParticleBatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/batches/BufferedParticleBatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/batches/ModelInstanceParticleBatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/batches/ModelInstanceParticleBatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/batches/ParticleBatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/batches/ParticleBatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/batches/PointSpriteParticleBatch.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/batches/PointSpriteParticleBatch.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/emitters/Emitter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/emitters/Emitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/emitters/RegularEmitter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/emitters/RegularEmitter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/ColorInfluencer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/ColorInfluencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/DynamicsInfluencer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/DynamicsInfluencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/DynamicsModifier.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/DynamicsModifier.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/Influencer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/Influencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/ModelInfluencer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/ModelInfluencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/ParticleControllerFinalizerInfluencer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/ParticleControllerFinalizerInfluencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/ParticleControllerInfluencer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/ParticleControllerInfluencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/RegionInfluencer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/RegionInfluencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/SampleInfluencer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/SampleInfluencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/ScaleInfluencer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/ScaleInfluencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/SimpleInfluencer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/influencers/SimpleInfluencer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/BillboardControllerRenderData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/BillboardControllerRenderData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/BillboardRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/BillboardRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/ModelInstanceControllerRenderData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/ModelInstanceControllerRenderData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/ModelInstanceRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/ModelInstanceRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/ParticleControllerControllerRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/ParticleControllerControllerRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/ParticleControllerRenderData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/ParticleControllerRenderData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/ParticleControllerRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/ParticleControllerRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/PointSpriteControllerRenderData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/PointSpriteControllerRenderData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/PointSpriteRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/renderers/PointSpriteRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/CylinderSpawnShapeValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/CylinderSpawnShapeValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/EllipseSpawnShapeValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/EllipseSpawnShapeValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/GradientColorValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/GradientColorValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/LineSpawnShapeValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/LineSpawnShapeValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/MeshSpawnShapeValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/MeshSpawnShapeValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/NumericValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/NumericValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/ParticleValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/ParticleValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/PointSpawnShapeValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/PointSpawnShapeValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/PrimitiveSpawnShapeValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/PrimitiveSpawnShapeValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/RangedNumericValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/RangedNumericValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/RectangleSpawnShapeValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/RectangleSpawnShapeValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/ScaledNumericValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/ScaledNumericValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/SpawnShapeValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/SpawnShapeValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/UnweightedMeshSpawnShapeValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/UnweightedMeshSpawnShapeValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/WeightedMeshSpawnShapeValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/particles/values/WeightedMeshSpawnShapeValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/AnimationController.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/AnimationController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/BaseAnimationController.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/BaseAnimationController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/BaseShaderProvider.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/BaseShaderProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/CameraInputController.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/CameraInputController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/DefaultRenderableSorter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/DefaultRenderableSorter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/DefaultShaderProvider.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/DefaultShaderProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/DefaultTextureBinder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/DefaultTextureBinder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/DepthShaderProvider.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/DepthShaderProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/FirstPersonCameraController.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/FirstPersonCameraController.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/MeshBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/MeshBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/MeshPartBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/MeshPartBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/ModelBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/ModelBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/RenderContext.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/RenderContext.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/RenderableSorter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/RenderableSorter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/ShaderProvider.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/ShaderProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/ShapeCache.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/ShapeCache.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/TextureBinder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/TextureBinder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/TextureDescriptor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/TextureDescriptor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/TextureProvider.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/TextureProvider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/ArrowShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/ArrowShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/BaseShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/BaseShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/BoxShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/BoxShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/CapsuleShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/CapsuleShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/ConeShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/ConeShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/CylinderShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/CylinderShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/EllipseShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/EllipseShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/FrustumShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/FrustumShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/PatchShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/PatchShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/RenderableShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/RenderableShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/SphereShapeBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/g3d/utils/shapebuilders/SphereShapeBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ETC1.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ETC1.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ETC1TextureData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ETC1TextureData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FacedCubemapData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FacedCubemapData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FileTextureArrayData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FileTextureArrayData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FileTextureData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FileTextureData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FloatFrameBuffer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FloatFrameBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FloatTextureData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FloatTextureData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FrameBuffer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FrameBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FrameBufferCubemap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/FrameBufferCubemap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/GLFrameBuffer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/GLFrameBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/GLOnlyTextureData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/GLOnlyTextureData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/GLVersion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/GLVersion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/HdpiUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/HdpiUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ImmediateModeRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ImmediateModeRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ImmediateModeRenderer20.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ImmediateModeRenderer20.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/IndexArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/IndexArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/IndexBufferObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/IndexBufferObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/IndexBufferObjectSubData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/IndexBufferObjectSubData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/IndexData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/IndexData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/KTXTextureData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/KTXTextureData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/MipMapGenerator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/MipMapGenerator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/MipMapTextureData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/MipMapTextureData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/PixmapTextureData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/PixmapTextureData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ShaderProgram.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ShaderProgram.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ShapeRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/ShapeRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/VertexArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/VertexArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/VertexBufferObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/VertexBufferObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/VertexBufferObjectSubData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/VertexBufferObjectSubData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/VertexBufferObjectWithVAO.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/VertexBufferObjectWithVAO.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/VertexData.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/glutils/VertexData.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/profiling/GL10Profiler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/profiling/GL10Profiler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/profiling/GL20Profiler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/profiling/GL20Profiler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/profiling/GL30Profiler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/profiling/GL30Profiler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/profiling/GLErrorListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/profiling/GLErrorListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/profiling/GLProfiler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../graphics/profiling/GLProfiler.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../input/GestureDetector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../input/GestureDetector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../input/RemoteInput.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../input/RemoteInput.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../input/RemoteSender.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../input/RemoteSender.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/ImageResolver.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/ImageResolver.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/Map.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/Map.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapLayer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapLayers.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapLayers.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapObjects.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapObjects.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapProperties.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapProperties.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/MapRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/CircleMapObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/CircleMapObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/EllipseMapObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/EllipseMapObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/PolygonMapObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/PolygonMapObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/PolylineMapObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/PolylineMapObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/RectangleMapObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/RectangleMapObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/TextureMapObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/objects/TextureMapObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/AtlasTmxMapLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/AtlasTmxMapLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/BaseTmxMapLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/BaseTmxMapLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapImageLayer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapImageLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapTile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapTile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapTileLayer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapTileLayer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapTileSet.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapTileSet.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapTileSets.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TiledMapTileSets.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TmxMapLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/TmxMapLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/objects/TiledMapTileMapObject.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/objects/TiledMapTileMapObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/BatchTiledMapRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/BatchTiledMapRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/HexagonalTiledMapRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/HexagonalTiledMapRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/IsometricStaggeredTiledMapRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/IsometricStaggeredTiledMapRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/IsometricTiledMapRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/IsometricTiledMapRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/OrthoCachedTiledMapRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/OrthoCachedTiledMapRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/OrthogonalTiledMapRenderer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/renderers/OrthogonalTiledMapRenderer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/tiles/AnimatedTiledMapTile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/tiles/AnimatedTiledMapTile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/tiles/StaticTiledMapTile.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../maps/tiled/tiles/StaticTiledMapTile.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Affine2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Affine2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/BSpline.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/BSpline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Beizer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Beizer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Breshnam.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Breshnam.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/CatmulRomSpline.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/CatmulRomSpline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Circle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Circle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/ConvexHull.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/ConvexHull.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/CumulativeDistribution.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/CumulativeDistribution.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/DelaunaryTriangulator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/DelaunaryTriangulator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/EarClippingTriangulator.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/EarClippingTriangulator.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Ellipse.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Ellipse.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/FloatCounter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/FloatCounter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Frustum.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Frustum.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/GeometryUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/GeometryUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/GridPoint2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/GridPoint2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/GridPoint3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/GridPoint3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Interpolation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Interpolation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Intersector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Intersector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/MathUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/MathUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Matrix3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Matrix3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Matrix4.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Matrix4.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Path.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Path.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Plane.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Plane.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Polygon.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Polygon.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Polyline.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Polyline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Quaternion.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Quaternion.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/RandomXS128.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/RandomXS128.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Rectangle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Rectangle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Shape2D.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Shape2D.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Vector.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Vector.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Vector2.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Vector2.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Vector3.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/Vector3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/WindowedMean.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/WindowedMean.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/collision/BoundingBox.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/collision/BoundingBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/collision/Ray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/collision/Ray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/collision/Segment.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/collision/Segment.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/collision/Sphere.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../math/collision/Sphere.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/HttpParametersUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/HttpParametersUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/HttpRequestBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/HttpRequestBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/HttpRequestHeader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/HttpRequestHeader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/HttpResponseHeader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/HttpResponseHeader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/HttpStatus.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/HttpStatus.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/ServerSocket.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/ServerSocket.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/ServerSocketHints.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/ServerSocketHints.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/Socket.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/Socket.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/SocketHints.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../net/SocketHints.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Align.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Align.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ArrayMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ArrayMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/AtomicQueue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/AtomicQueue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BGxBuild.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BGxBuild.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BGxNativeLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BGxNativeLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BGxRuntimeException.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BGxRuntimeException.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Base64Coder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Base64Coder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BaseJsonReader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BaseJsonReader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BinaryHeap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BinaryHeap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Bits.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Bits.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BooleanArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BooleanArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BufferUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/BufferUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ByteArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ByteArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/CharArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/CharArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Clipboard.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Clipboard.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ComparableTimSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ComparableTimSort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/DataBuffer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/DataBuffer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/DataInput.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/DataInput.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/DataOutput.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/DataOutput.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/DelayedRemovalArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/DelayedRemovalArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Disposable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Disposable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/FloatArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/FloatArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/FlushablePool.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/FlushablePool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/I18NBundle.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/I18NBundle.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IdentityMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IdentityMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IntArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IntArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IntFloatMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IntFloatMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IntIntMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IntIntMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IntMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IntMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IntSet.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/IntSet.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Json.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Json.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/JsonReader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/JsonReader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/JsonValue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/JsonValue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/JsonWriter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/JsonWriter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/LittleEndianInputStream.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/LittleEndianInputStream.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Logger.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Logger.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/LongArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/LongArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/LongMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/LongMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/NumberUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/NumberUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ObjectFloatMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ObjectFloatMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ObjectIntMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ObjectIntMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ObjectMap.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ObjectMap.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/OrderedSet.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/OrderedSet.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/PauseableThread.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/PauseableThread.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/PerformanceCounter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/PerformanceCounter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/PerformanceCounters.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/PerformanceCounters.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Pool.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Pool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/PooledLinkedList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/PooledLinkedList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Pools.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Pools.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Predicate.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Predicate.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/PropertiesUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/PropertiesUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Queue.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Queue.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/QuickSelect.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/QuickSelect.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ReflectionPool.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ReflectionPool.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Scaline.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Scaline.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/SceneUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/SceneUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Select.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Select.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/SetializationException.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/SetializationException.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ShaderLibraryLoader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ShaderLibraryLoader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ShortArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/ShortArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/SnapshotArray.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/SnapshotArray.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Sort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Sort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/SortedIntList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/SortedIntList.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/StreamUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/StreamUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/StringBuilder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/StringBuilder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/TextFormatter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/TextFormatter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/TimSort.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/TimSort.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/TimeUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/TimeUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Timer.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/Timer.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/UBJsonReader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/UBJsonReader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/UBJsonWriter.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/UBJsonWriter.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/XmlReader.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/XmlReader.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/async/AsyncExecutor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/async/AsyncExecutor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/async/AsyncResult.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/async/AsyncResult.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/async/AsyncTask.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/async/AsyncTask.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/async/ThreadUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/async/ThreadUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/CRC.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/CRC.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/IcodeProgress.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/IcodeProgress.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/Lzma.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/Lzma.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lz/BinTree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lz/BinTree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lz/InWindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lz/InWindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lz/OutWindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lz/OutWindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lzma/Base.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lzma/Base.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lzma/Decoder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lzma/Decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lzma/Encoder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/lzma/Encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/rangecoder/BitTreeDecoder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/rangecoder/BitTreeDecoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/rangecoder/BitTreeEncoder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/rangecoder/BitTreeEncoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/rangecoder/Decoder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/rangecoder/Decoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/rangecoder/Encoder.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/compression/rangecoder/Encoder.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/Annotation.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/Annotation.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/ArrayReflection.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/ArrayReflection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/ClassReflection.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/ClassReflection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/Constructor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/Constructor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/Field.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/Field.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/Method.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/Method.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/ReflectionException.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/reflect/ReflectionException.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Action.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Action.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Actor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Actor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Event.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Event.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/EventListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/EventListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Group.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Group.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/InputEvent.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/InputEvent.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/InputListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/InputListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Stage.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Stage.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Touchable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/Touchable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/Actions.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/Actions.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/AddAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/AddAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/AddListenerAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/AddListenerAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/AfterAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/AfterAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/AlphaAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/AlphaAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/ColorAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/ColorAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/CountdownEventAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/CountdownEventAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/DelayAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/DelayAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/DelegateAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/DelegateAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/EventAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/EventAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/FloatAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/FloatAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/IntAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/IntAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/LayoutAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/LayoutAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/MoveByAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/MoveByAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/MoveToAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/MoveToAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/ParallelAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/ParallelAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RelativeTemporalAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RelativeTemporalAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RemoveAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RemoveAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RemoveActorAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RemoveActorAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RemoveListenerAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RemoveListenerAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RepeatAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RepeatAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RotateByAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RotateByAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RotateToAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RotateToAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RunnableAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/RunnableAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/ScaleByAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/ScaleByAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/ScaleToAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/ScaleToAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/SequenceAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/SequenceAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/SizeByAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/SizeByAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/SizeToAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/SizeToAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/TemporalAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/TemporalAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/TimeScaleAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/TimeScaleAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/TouchableAction .cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/TouchableAction .h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/VisibleAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/actions/VisibleAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Button.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Button.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ButtonGroup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ButtonGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Cell.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Cell.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/CheckBox.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/CheckBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Container.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Container.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Dialog.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Dialog.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/HorizontalGroup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/HorizontalGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Image.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Image.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ImageButton.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ImageButton.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ImageTextButton.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ImageTextButton.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Label.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Label.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/List.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/List.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ProgressBar.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ProgressBar.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ScrollPane.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ScrollPane.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/SelectBox.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/SelectBox.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Skin.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Skin.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Slider.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Slider.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/SplitPane.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/SplitPane.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Stack.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Stack.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Table.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Table.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TextArea.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TextArea.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TextButton.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TextButton.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TextField.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TextField.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TextToolTip.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TextToolTip.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ToolTip.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/ToolTip.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TooltipManager.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TooltipManager.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TouchPad.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/TouchPad.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Tree.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Tree.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Value.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Value.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/VerticalGroup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/VerticalGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Widget.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/Widget.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/WidgetGroup.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/ui/WidgetGroup.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/ActorGestureListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/ActorGestureListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/ArraySelection.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/ArraySelection.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/BaseDrawable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/BaseDrawable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/ChangeListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/ChangeListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/ClickListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/ClickListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/Clickable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/Clickable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/Disableable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/Disableable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/DragAndDrop.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/DragAndDrop.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/DragListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/DragListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/DragScrollListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/DragScrollListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/Drawable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/Drawable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/FocusListener.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/FocusListener.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/Layout.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/Layout.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/NinePatchDrawable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/NinePatchDrawable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/TiledDrawable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/TiledDrawable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/TransformDrawable.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/TransformDrawable.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/UIUtils.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/scenes/scene2d/utils/UIUtils.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/ExtendedViewport.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/ExtendedViewport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/FillViewport.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/FillViewport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/FitViewport.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/FitViewport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/ScalingViewport.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/ScalingViewport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/ScreenViewport.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/ScreenViewport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/StretchViewport.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/StretchViewport.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/Viewport.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../utils/viewport/Viewport.h" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="1701247853">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cpp" value="12" />
+          <entry key="h" value="4" />
+          <entry key="hpp" value="17" />
+          <entry key="memory" value="1" />
+          <entry key="txt" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CMakeLists.txt" value="7" />
+          <entry key="ObjectiveC" value="33" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cpp" value="205" />
+          <entry key="h" value="44" />
+          <entry key="hpp" value="317" />
+          <entry key="memory" value="11" />
+          <entry key="txt" value="167" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CMakeLists.txt" value="167" />
+          <entry key="ObjectiveC" value="566" />
+          <entry key="PLAIN_TEXT" value="11" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graphics.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2113">
+              <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+              <folding>
+                <element signature="e#851#868#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Input.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6816">
+              <caret line="284" lean-forward="true" selection-start-line="284" selection-end-line="284" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InputAdapter.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InputMultiplexer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+              <folding>
+                <element signature="e#800#831#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/InputProcessor.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Screen.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Version.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="541">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Version.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="733">
+              <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+              <folding>
+                <element signature="e#799#817#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graphics.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Game.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>.h&quot;</find>
+      <find>.h</find>
+      <find>__</find>
+      <find>_H</find>
+      <find>GDX_CPP_UTILS_ALIASES</find>
+      <find>INTERNAL_HPP</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>.hpp&quot;</replace>
+      <replace>.hpp</replace>
+      <replace>_</replace>
+      <replace>_HPP</replace>
+      <replace>BGX_INTERNAL</replace>
+      <replace>INTERNAL_MEMORY_HPP</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Application.h" />
+        <option value="$PROJECT_DIR$/utils/AtomicQueue.cpp" />
+        <option value="$PROJECT_DIR$/ApplicationAdapter.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/utils/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/utils/ReflectionPool.hpp" />
+        <option value="$PROJECT_DIR$/utils/Runnable.cpp" />
+        <option value="$PROJECT_DIR$/utils/Runnable.hpp" />
+        <option value="$PROJECT_DIR$/internal/memory" />
+        <option value="$PROJECT_DIR$/Audio.hpp" />
+        <option value="$PROJECT_DIR$/Files.hpp" />
+        <option value="$PROJECT_DIR$/Game.hpp" />
+        <option value="$PROJECT_DIR$/Game.cpp" />
+        <option value="$PROJECT_DIR$/BGx.hpp" />
+        <option value="$PROJECT_DIR$/BGx.cpp" />
+        <option value="$PROJECT_DIR$/Graphics.hpp" />
+        <option value="$PROJECT_DIR$/Input.hpp" />
+        <option value="$PROJECT_DIR$/InputMultiplexer.hpp" />
+        <option value="$PROJECT_DIR$/InputMultiplexer.cpp" />
+        <option value="$PROJECT_DIR$/InputAdapter.hpp" />
+        <option value="$PROJECT_DIR$/InputAdapter.cpp" />
+        <option value="$PROJECT_DIR$/InputProcessor.hpp" />
+        <option value="$PROJECT_DIR$/Screen.hpp" />
+        <option value="$PROJECT_DIR$/Version.hpp" />
+        <option value="$PROJECT_DIR$/Version.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1" />
+    <option name="y" value="24" />
+    <option name="width" value="961" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LibBGx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BGx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibBGx" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BGx" type="462c0819:PsiDirectoryNode" />
+              <item name="internal" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/CMakeLists.txt" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.splitter.proportion" value="0.27220076" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.LibBGx">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibBGx" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="LibBGx" TARGET_NAME="LibBGx" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.LibBGx" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a289063-a9d5-4198-a591-fec20b5e4c7b" name="Default Changelist" comment="" />
+      <created>1534664591410</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1534664591410</updated>
+      <workItem from="1534664593098" duration="1793000" />
+      <workItem from="1534666800708" duration="5271000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7064000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="24" width="1922" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2524013" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.32948583" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ApplicationListener.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="31" column="48" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/AtomicQueue.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="18" column="3" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/ArrayMap.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/ArrayMap.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationAdapter.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="27" column="54" lean-forward="true" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1032">
+          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1848">
+          <caret line="77" column="27" selection-start-line="77" selection-start-column="27" selection-end-line="77" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/ReflectionPool.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/ReflectionPool.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="18" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ApplicationListener.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal/memory">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Runnable.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Audio.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" column="15" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Audio.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/Runnable.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="44" column="2" lean-forward="true" selection-start-line="44" selection-start-column="2" selection-end-line="44" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Files.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BGx.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BGx.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-827" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputMultiplexer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="33" column="31" selection-start-line="33" selection-start-column="31" selection-end-line="33" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputAdapter.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputAdapter.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputMultiplexer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="e#800#831#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/InputProcessor.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Screen.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Version.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Version.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="733">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+          <folding>
+            <element signature="e#799#817#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Input.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6816">
+          <caret line="284" lean-forward="true" selection-start-line="284" selection-end-line="284" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Game.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphics.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphics.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2113">
+          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
+          <folding>
+            <element signature="e#851#868#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
